@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 3000
+  preview: {
+    allowedHosts: [
+    'comp229-401-assignment1-f2025.onrender.com'
+    ]
   }
 })
