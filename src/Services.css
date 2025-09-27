@@ -60,7 +60,6 @@
     margin: 0;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
     .services-grid {
     grid-template-columns: 1fr;

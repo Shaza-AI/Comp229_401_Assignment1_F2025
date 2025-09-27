@@ -22,7 +22,7 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real application, this would send the data to a server
+    
     console.log('Form submitted:', formData);
     alert('Thank you for your message! You will be redirected to the home page.');
     navigate('/');

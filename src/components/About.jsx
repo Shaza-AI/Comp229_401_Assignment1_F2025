@@ -2,7 +2,7 @@ import '../About.css';
 import profilePhoto from '../assets/profile-photo.jpg';
 
 const About = () => {
-  // Function to handle resume download
+  
     const handleResumeDownload = () => {
         window.open('/resume.pdf', '_blank');
     };

@@ -83,7 +83,7 @@
     color: #764ba2;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
     .home-content h1 {
     font-size: 2rem;
